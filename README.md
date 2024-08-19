@@ -63,7 +63,25 @@ Hide/Show table of contents
 
 | No. | Questions                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | **Core React**                                                                                                                                                                                                                   |
+|     | **Core React**                      
+
+**OLD Q&A**
+20.
+incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames 
+21.
+[componentWillMount() is invoked immediately before mounting occurs] 
+22.
+  [props only runs when the component is first created]  
+31.Why we need to pass a function to setState()?
+setState() is an asynchronous operation 
+83.Is it possible to use react without JSX?
+the state may not change immediately after setState() is called
+JSX is not mandatory for using React
+
+
+
+ 
+|
                                                                                                                                             |
 | 4   | [What is JSX?](#what-is-jsx)                                                                                                                                                                                                     |
 | 5   | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component)                                                                                                                   |
@@ -82,11 +100,11 @@ star| 16  | [What is Virtual DOM?](#what-is-virtual-dom)        [The Virtual DOM
 star| 18  | [What is the difference between Shadow DOM and Virtual DOM?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) [shadow dom:attach]
 https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM|
 star| 19  | [What is React Fiber?](#what-is-react-fiber)       [new reconciliation engine] or reimplementation of core algorithm in React v16                                                                                                                                                                              |
-star| 20  | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber)     incremental rendering: the ability to split rendering work into chunks and spread it out over multiple frames                                                                                                                                              |
-| 21  | [What are controlled components?](#what-are-controlled-components)                                                                                                                                                               |
-| 22  | [What are uncontrolled components?](#what-are-uncontrolled-components)                                                                                                                                                           |
-| 23  | [What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement)                                                                                                 |
-| 24  | [What is Lifting State Up in React?](#what-is-lifting-state-up-in-react)                                                                                                                                                         |
+star| 20  | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber)                                                                                                                                                  |
+| 21  | [What are controlled components?](#what-are-controlled-components)                [controlled components: inside handleSubmit handleChange]                                                                                                                                              |
+star| 22  | [What are uncontrolled components?](#what-are-uncontrolled-components)            [uncontrolled components:useRef,more traditional like]                                                                                                                                           |
+| 23  | [What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement)       [cloneElement: pass new props]                                                                                           |
+| 24  | [What is Lifting State Up in React?](#what-is-lifting-state-up-in-react)       [if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.]                                                                                                                                                  |
 | 25  | [What are Higher-Order components?](#what-are-higher-order-components)                                                                                                                                                           |
 | 26  | [What is children prop?](#what-is-children-prop)                                                                                                                                                                                 |
 | 27  | [How to write comments in React?](#how-to-write-comments-in-react)                                                                                                                                                               |
